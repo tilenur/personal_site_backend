@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# Local database and uploaded files
+db.sqlite3
+media/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,10 @@
+services:
+  db: 
+    image: postgres:17
+    container_name: personal_site_db
+    environment:
+      POSTGRES_DB: personal_site
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5433:5432"
